@@ -791,7 +791,16 @@ body{
 
     #home{
         flex-direction: column-reverse;
-        padding-top:20%;
+        padding-top:26%;
+    }
+
+    #home h1{
+        font-size:5.5rem;
+    }
+
+    #home h3{
+        font-size:3.5rem;
+        margin:1.5% 0 1.4%;
     }
 
     .section{
@@ -828,19 +837,23 @@ body{
     }
 
     .social-icons{
+        width:95%;
+        justify-content: center;
+        align-items: center;
         display: flex;
         gap:1em;
         text-align: left;
-        margin: 2% 0;
+        margin: 5.5% 0 0;
     }
 
     .social-icons i{
-        background: var(--main-color);
+        background: #bc58e7;
         box-shadow: 0 0 10px var(--main-color);
         color:black;
     }
 
     .content h4{
+        display:none;
         width:60%;
         text-align: center;
         font-size: 1.5rem;
@@ -848,6 +861,7 @@ body{
     }
     
     .buttons{
+        display:none;
         margin: 0 auto;
         transition: 0.3s ease;
         display:flex;
@@ -863,6 +877,7 @@ body{
     }
 
     .buttons > button{
+        display:none;
         font-size:1.68rem;
         font-weight:600;
         background: var(--main-color);
