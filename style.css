@@ -791,7 +791,7 @@ body{
 
     #home{
         flex-direction: column-reverse;
-        padding-top:26%;
+        padding-top:22%;
     }
 
     #home h1{
