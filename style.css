@@ -828,9 +828,6 @@ body{
     }
 
     .social-icons{
-        width:95%;
-        align-items: center;
-        justify-content: center;
         display: flex;
         gap:1em;
         text-align: left;
@@ -844,15 +841,13 @@ body{
     }
 
     .content h4{
-        padding-left:30%;
-        width:100%;
+        width:60%;
         text-align: center;
         font-size: 1.5rem;
-        margin:2.4rem 0 1.7rem;
+        margin:2.4rem 0 1.5rem;
     }
     
     .buttons{
-        padding-left:29%;
         margin: 0 auto;
         transition: 0.3s ease;
         display:flex;
@@ -862,6 +857,7 @@ body{
     }
     
     .buttons{
+        margin-top:1.5%;
         margin-left:-1%;
         
     }
@@ -874,17 +870,23 @@ body{
         color:black;
     }
 
+    .exp-area{
+        padding: 0 4.5%;
+        padding-right:6%
+    }
+
     .exp-area::before{
-        left:8px;
+        left:25px;
     }
 
     .exp-point{
-        left:0;
+        left:17px;
     }
 
     .exp-year{
         position:absolute;
-        left:35px;
+        left:55px;
+        margin-bottom:1.5%;
     }
     
     .exp-item:nth-of-type(odd), .exp-item:nth-of-type(even){
@@ -932,7 +934,7 @@ body{
 
     .services .service-box{
         padding:5.2rem 4rem;
-        height:340px;
+        height:360px;
         border:3px solid var(--main-color);
         box-shadow: 0 0 12px var(--main-color);
     }
@@ -953,7 +955,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:0 8%;
+        padding:0 4.8%;
     }
 
     .testimonials-box h2{
