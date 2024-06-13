@@ -262,10 +262,10 @@ body{
 
 @keyframes words{
     0%, 20%{
-        content: "Salsa Cubana"
+        content: "Bachata"
     }
     21%, 40%{
-        content: "Bachata"
+        content: "Bolero"
     }
     41%, 60%{
         content: "Pagode"
@@ -789,8 +789,13 @@ body{
         border-bottom:none;
     }
 
-    .section{
+    #home{
         flex-direction: column-reverse;
+        padding-top:20%;
+    }
+
+    .section{
+        flex-direction: column;
         padding:15% 3%;
         max-width: 1000px;
         align-items: center;
@@ -822,18 +827,37 @@ body{
         text-align: left;
     }
 
+    .social-icons{
+        width:95%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap:1em;
+        text-align: left;
+        margin: 2% 0;
+    }
+
+    .social-icons i{
+        background: var(--main-color);
+        box-shadow: 0 0 10px var(--main-color);
+        color:black;
+    }
+
     .content h4{
+        padding-left:30%;
+        width:100%;
+        text-align: center;
         font-size: 1.5rem;
-        max-width:225px;
         margin:2.4rem 0 1.7rem;
     }
     
     .buttons{
+        padding-left:29%;
+        margin: 0 auto;
         transition: 0.3s ease;
         display:flex;
         align-items: center;
         justify-content: center;
-        max-width:245px;
         gap:0.6rem;
     }
     
@@ -844,7 +868,10 @@ body{
 
     .buttons > button{
         font-size:1.68rem;
-        font-weight:500;
+        font-weight:600;
+        background: var(--main-color);
+        box-shadow: 0 0 10px var(--main-color);
+        color:black;
     }
 
     .exp-area::before{
@@ -883,27 +910,28 @@ body{
     }
 
     .exp-content > h4{
-        font-size: 2.3rem;
-        margin-bottom:0.6rem;
+        font-size: 2.5rem;
+        margin-bottom:1rem;
     }
     
     .exp-content > p{
-        font-size: 1.6rem;
-        line-height:1.8rem;
+        font-size: 1.7rem;
+        line-height:1.4;
     }
 
     .services .services-container{
+        padding: 0 10%;
         grid-template-columns: repeat(1, 1fr);
         gap:3.3rem;
     }
     
     .services h2{
         font-size: 7rem;
-        margin-bottom:6%;
+        margin-bottom:8%;
     }
 
     .services .service-box{
-        padding:5.2rem;
+        padding:5.2rem 4rem;
         height:340px;
         border:3px solid var(--main-color);
         box-shadow: 0 0 12px var(--main-color);
@@ -912,7 +940,7 @@ body{
     .service-box h4{
         font-size:3.6rem;
         font-weight: 700;
-        margin-bottom:1.5%;
+        margin-bottom:2%;
     }
     
     .service-box p{
@@ -925,6 +953,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding:0 8%;
     }
 
     .testimonials-box h2{
@@ -936,6 +965,14 @@ body{
         gap:2.2rem;
     }
 
+    .testimonial-item p{
+        text-align:center;
+    }
+
+    .testimonial-item:hover{
+        transform: scale(1);
+        box-shadow: none;
+    }
     
 .testimonial-item img{
     width:20rem;
