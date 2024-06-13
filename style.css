@@ -262,10 +262,10 @@ body{
 
 @keyframes words{
     0%, 20%{
-        content: "Salsa"
+        content: "Salsa Cubana"
     }
     21%, 40%{
-        content: "Bolero"
+        content: "Bachata"
     }
     41%, 60%{
         content: "Pagode"
@@ -758,6 +758,7 @@ body{
     }
 
     .navbar{
+        width:100%;
         position:absolute;
         top:100%;
         right:0;
@@ -767,7 +768,6 @@ body{
         background-color: rgb(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
         padding:0rem 0rem;
-        border-left: 3px solid var(--main-color);
         border-bottom: 3px solid var(--main-color);
         display:none;
     }
