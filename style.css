@@ -738,7 +738,7 @@ body{
     }
 
     .testimonials-box{
-        padding:10% 3%;
+        padding:10% 2%;
     }
 }
 
@@ -974,16 +974,16 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:0 4%;
+        padding:0 2.5%;
     }
 
     .testimonials-box h2{
         font-size: 7rem;
-        margin-bottom:5%;
+        margin-bottom:6%;
     }
 
     .testimonial-item{
-        max-width:470px;
+        max-width:480px;
         gap:2.2rem;
     }
 
