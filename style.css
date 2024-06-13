@@ -885,6 +885,10 @@ body{
         color:black;
     }
 
+    .education h2{
+        font-size:7rem;
+    }
+
     .exp-area{
         padding: 0 4.5%;
         padding-right:6%
@@ -944,12 +948,12 @@ body{
     
     .services h2{
         font-size: 7rem;
-        margin-bottom:8%;
+        margin-bottom:6%;
     }
 
     .services .service-box{
         padding:5.2rem 4rem;
-        height:360px;
+        height:380px;
         border:3px solid var(--main-color);
         box-shadow: 0 0 12px var(--main-color);
     }
@@ -970,15 +974,16 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:0 4.8%;
+        padding:0 4%;
     }
 
     .testimonials-box h2{
         font-size: 7rem;
+        margin-bottom:3%;
     }
 
     .testimonial-item{
-        max-width:420px;
+        max-width:450px;
         gap:2.2rem;
     }
 
@@ -1015,7 +1020,7 @@ body{
 }
 
 .contact form .info-group{
-    width:80%;
+    width:85%;
 }
 
 .contact form input, .contact form textarea{
@@ -1029,7 +1034,7 @@ body{
 }
 
 .contact{
-    padding:10% 5%;
+    padding:10% 2%;
 }
 
 .contact h2{
