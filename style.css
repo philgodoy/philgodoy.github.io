@@ -489,13 +489,14 @@ body{
 .testimonial-area{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:4.5rem;
+    place-content: center;
+    gap: 4.5rem;
 }
 
 .testimonial-item{
     padding:6.5rem 6rem 3rem;
     min-height:550px;
-    max-width:450px;
+    min-width:350px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 2rem;
     border:3px solid #a637d66f;
@@ -747,6 +748,10 @@ body{
         display:block;
     }
 
+    .logo a{
+        font-size:3rem;
+    }
+
     .navbar.active{
         display:flex;
     }
@@ -993,7 +998,7 @@ body{
 
     .testimonial-item:hover{
         transform: scale(1);
-        box-shadow: none;
+        box-shadow: 0 0 25px var(--main-color);
     }
     
 .testimonial-item img{
