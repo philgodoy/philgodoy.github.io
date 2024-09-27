@@ -196,16 +196,16 @@
 
         <h2 class="title">Fale <span>comigo</span></h2>
 
-        <form action="">
+        <form action="enviar.php" method="post">
             <div class="info-group">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Número de telefone">
-                <input type="text" placeholder="Assunto">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="telefone" placeholder="Número de telefone" required>
+                <input type="text" name="assunto" placeholder="Assunto" required>
             </div>
-    
+        
             <div class="info-group">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+                <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite uma mensagem" required></textarea>
                 <input type="submit" value="Enviar mensagem">
             </div>
         </form>
